@@ -1,0 +1,34 @@
+# 忽略檔案
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# 虛擬環境
+venv/
+.venv/
+
+# 暫存檔案與輸出
+temp_audio/
+docs/
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
