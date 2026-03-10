@@ -1,11 +1,11 @@
 # Hour of AI - Image Generator
 
-使用 Google Gemini 2.0 Flash 圖片生成模型來創建 AI 圖片的工具。
+使用 Google Gemini 3.1 Flash 圖片生成模型來創建 AI 圖片的工具。
 
 ## 功能
 
 - 輸入文字提示詞生成圖片
-- 使用 Gemini 2.0 Flash Image Generation 模型
+- 使用 Gemini 3.1 Flash Image Preview 模型
 - 自動調整為 1:1 比例 (512x512)
 - 圖片自動儲存到 `generated_images/` 資料夾
 
@@ -43,7 +43,7 @@ python image_generator.py
 
 ## 模型資訊
 
-- **模型**: `gemini-2.0-flash-exp-image-generation`
+- **模型**: `gemini-3.1-flash-exp-image-generation`
 - **圖片尺寸**: 512x512 (1:1 比例)
 - **輸出格式**: PNG
 
