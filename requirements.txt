@@ -1,3 +1,7 @@
+# 整個 AI 工具專案的依賴
+# 各子專案的依請參考各自資料夾中的 requirements.txt
+
+# 通用依賴
 google-genai>=1.66.0
-yt-dlp>=2026.3.3
 python-dotenv>=1.2.2
+pillow>=12.1.1
